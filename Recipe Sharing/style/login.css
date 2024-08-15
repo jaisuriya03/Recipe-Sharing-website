@@ -1,0 +1,51 @@
+body
+{
+    background-image: url("../asserts/loginbackground.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#login-card
+{
+    margin-left: 150px;
+    padding-top:225px ;
+    text-align: center;
+    justify-content: center;
+}
+#login-card > table
+{
+    margin-left: 40%;
+}
+#submit-button
+{
+    font-size: large;
+    padding: 5px;
+    border-radius: 10px;
+}
+#submit-button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+
+}
+#login-card a{
+    text-decoration: none;
+}
+#login-card > img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
+    margin-left: 60px;
+}
+input:invalid {
+    box-shadow: 10px 3px 5px rgb(211, 9, 36);
+    border-color: red; 
+}
+input:focus:invalid {
+    box-shadow: none;
+}
